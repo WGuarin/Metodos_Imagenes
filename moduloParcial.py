@@ -2,7 +2,7 @@
 def positivos(a):
     #Crea una lista vacia para almacenar los resultados
     res=[]
-    #Verifica que el tamaño de la matriz si sea 2x2
+    #Verifica que el tamaño de la matriz si sea de 2 dimensiones
     if len(a.shape)==2:
         #Toma el tamaño de la matriz en las filas ya que a.shape regresa una tupla de dos posiciones, se toma la primera que corresponde a las filas
         for i in range(a.shape[0]):
@@ -17,7 +17,7 @@ def positivos(a):
 def negativos(a):
     #Crea una lista vacia para almacenar los resultados
     res=[]
-    #Verifica que el tamaño de la matriz si sea 2x2 
+    #Verifica que el tamaño de la matriz si sea 2 dimensiones
     if len(a.shape)==2:
         #Toma el tamaño de la matriz en las filas ya que a.shape regresa una tupla de dos posiciones, se toma la primera que corresponde a las filas
         for i in range(a.shape[0]):
@@ -32,7 +32,7 @@ def negativos(a):
 def pares(a):
     #Crea una lista vacia para almacenar los resultados
     res=[]
-    #Verifica que el tamaño de la matriz si sea 2x2 
+    #Verifica que el tamaño de la matriz si sea 2 dimensiones
     if len(a.shape)==2:
         #Toma el tamaño de la matriz en las filas ya que a.shape regresa una tupla de dos posiciones, se toma la primera que corresponde a las filas
         for i in range(a.shape[0]):
@@ -47,7 +47,7 @@ def pares(a):
 def impares(a):
     #Crea una lista vacia para almacenar los resultados
     res=[]
-    #Verifica que el tamaño de la matriz si sea 2x2 
+    #Verifica que el tamaño de la matriz si sea 2 dimensiones
     if len(a.shape)==2:
         #Toma el tamaño de la matriz en las filas ya que a.shape regresa una tupla de dos posiciones, se toma la primera que corresponde a las filas
         for i in range(a.shape[0]):
@@ -80,7 +80,7 @@ def primo(a):
 def primos(a):
     #Crea una lista vacia para almacenar los resultados
     res=[]
-    #Verifica que el tamaño de la matriz si sea 2x2 
+    #Verifica que el tamaño de la matriz si sea 2 dimensiones
     if len(a.shape)==2:
         #Toma el tamaño de la matriz en las filas ya que a.shape regresa una tupla de dos posiciones, se toma la primera que corresponde a las filas
         for i in range(a.shape[0]):
